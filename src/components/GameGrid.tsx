@@ -17,7 +17,7 @@ const GameGrid = ({ gameQuery }: Props) => {
     <>
       <p>{error && <p>{error}</p>}</p>
       <SimpleGrid
-        columns={{ sm: 1, md: 2, lg: 3, xl: 5 }}
+        columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
         spacing={3}
         padding={1}
       >
